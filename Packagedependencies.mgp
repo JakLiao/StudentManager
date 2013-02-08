@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PackageAnalysis>
+    <Package name="com.lhj" x="116" y="236">
+        <DependencyLink destination="com.lhj.login"/>
+    </Package>
+    <Package name="com.lhj.login" x="105" y="176">
+        <DependencyLink destination="com.lhj"/>
+    </Package>
+    <Package name="internalFrame" x="104" y="28">
+        <DependencyLink destination="internalFrame.scoreMenuGuanli"/>
+        <DependencyLink destination="internalFrame.stuGuanli"/>
+        <DependencyLink destination="model"/>
+        <DependencyLink destination="internalFrame.courseGuanli"/>
+        <DependencyLink destination="internalFrame.classGuanli"/>
+    </Package>
+    <Package name="keyListener" x="599" y="236"/>
+    <Package name="model" x="275" y="137">
+        <DependencyLink destination="com.lhj"/>
+    </Package>
+    <Package name="internalFrame.classGuanli" x="509" y="27">
+        <DependencyLink destination="model"/>
+        <DependencyLink destination="keyListener"/>
+    </Package>
+    <Package name="internalFrame.courseGuanli" x="504" y="132">
+        <DependencyLink destination="model"/>
+        <DependencyLink destination="keyListener"/>
+    </Package>
+    <Package name="internalFrame.scoreMenuGuanli" x="407" y="181">
+        <DependencyLink destination="model"/>
+        <DependencyLink destination="keyListener"/>
+    </Package>
+    <Package name="internalFrame.stuGuanli" x="232" y="240">
+        <DependencyLink destination="model"/>
+        <DependencyLink destination="keyListener"/>
+    </Package>
+</PackageAnalysis>
